@@ -1,0 +1,20 @@
+[project]
+name = "rag"
+version = "0.1.0"
+description = "Agriculture RAG Project"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+
+dependencies = [
+    "ipykernel",
+    "langchain",
+    "langchain-community",
+    "langchain-core",
+    "langchain-text-splitters",
+    "pymupdf",
+    "pypdf",
+    "faiss-cpu",
+    "sentence-transformers",
+    "chromadb>=1.5.7",
+    "groq>=1.1.2",
+]
